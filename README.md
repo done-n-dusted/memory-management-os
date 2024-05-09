@@ -1,10 +1,10 @@
 # OS Project 1
 
-Overview
+## Overview
 
 This is a custom memory allocator implemented using segregated free lists and a linked list structure. The allocator provides functionality for memory allocation, deallocation, and reallocation, optimizing memory usage and performance. This was done as part of the course CMPSC473 - Operating Systems at the Pennsylvania State University -- University Park.
 
-Features
+## Features
 
 *   Segregated free lists of various size classes for efficient memory management.
 *   Allocation: Blocks are allocated from appropriate size classes, with splitting and extension of the heap if necessary.
@@ -12,7 +12,7 @@ Features
 *   Realloc: Combination of malloc and realloc functionalities for resizing memory blocks.
 *   Footer Optimization: Efficient memory management by utilizing footer information for coalescing blocks.
 
-Implementation Details
+## Implementation Details
 
 ### Segregated Free Lists
 
